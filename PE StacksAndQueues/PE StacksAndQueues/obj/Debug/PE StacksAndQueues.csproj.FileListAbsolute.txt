@@ -1,0 +1,7 @@
+C:\Users\kimbe\OneDrive\Documents\Visual Studio 2017\Projects\MJC_PE_StacksAndQueues\PE StacksAndQueues\PE StacksAndQueues\bin\Debug\PE StacksAndQueues.exe.config
+C:\Users\kimbe\OneDrive\Documents\Visual Studio 2017\Projects\MJC_PE_StacksAndQueues\PE StacksAndQueues\PE StacksAndQueues\bin\Debug\PE StacksAndQueues.exe
+C:\Users\kimbe\OneDrive\Documents\Visual Studio 2017\Projects\MJC_PE_StacksAndQueues\PE StacksAndQueues\PE StacksAndQueues\bin\Debug\PE StacksAndQueues.pdb
+C:\Users\kimbe\OneDrive\Documents\Visual Studio 2017\Projects\MJC_PE_StacksAndQueues\PE StacksAndQueues\PE StacksAndQueues\obj\Debug\PE StacksAndQueues.csprojAssemblyReference.cache
+C:\Users\kimbe\OneDrive\Documents\Visual Studio 2017\Projects\MJC_PE_StacksAndQueues\PE StacksAndQueues\PE StacksAndQueues\obj\Debug\PE StacksAndQueues.csproj.CoreCompileInputs.cache
+C:\Users\kimbe\OneDrive\Documents\Visual Studio 2017\Projects\MJC_PE_StacksAndQueues\PE StacksAndQueues\PE StacksAndQueues\obj\Debug\PE StacksAndQueues.exe
+C:\Users\kimbe\OneDrive\Documents\Visual Studio 2017\Projects\MJC_PE_StacksAndQueues\PE StacksAndQueues\PE StacksAndQueues\obj\Debug\PE StacksAndQueues.pdb
