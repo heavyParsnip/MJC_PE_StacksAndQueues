@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace PE_StacksAndQueues
 {
-    class MyStack : IStack
+    class MyStack<T> : IStack<T>
     {
         //FIELDS
-        List<String> stack = new List<String>();
+        List<T> stack = new List<T>();
 
 
         //PROPERTIES
@@ -36,11 +36,11 @@ namespace PE_StacksAndQueues
         //CONSTRUCTORS
 
         //METHODS
-        public String Peek()
+        public T Peek()
         {
             if(stack.Count == 0)
             {
-                return null;
+                return default(T);
             }
             else
             {
@@ -48,20 +48,20 @@ namespace PE_StacksAndQueues
             }
         }
 
-        public void Push(String item)
+        public void Push(T item)
         {
             stack.Add(item);
         }
 
-        public String Pop()
+        public T Pop()
         {
             if (stack.Count == 0)
             {
-                return null;
+                return default(T);
             }
             else
             {
-                String topOfStack = stack[stack.Count - 1];
+                T topOfStack = stack[stack.Count - 1];
                 stack.RemoveAt(stack.Count - 1);
                 return topOfStack;
             }

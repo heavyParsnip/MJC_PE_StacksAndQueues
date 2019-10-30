@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace PE_StacksAndQueues
 {
     // DO NOT MODIFY THIS CODE
-    interface IQueue
+    interface IQueue<T>
     {
         /// <summary>
         /// Gets the current count of items in the queue
@@ -22,18 +22,18 @@ namespace PE_StacksAndQueues
         /// <summary>
         /// Look at and return the front of the queue.
         /// </summary>
-        String Peek();
+        T Peek();
 
         /// <summary>
         /// Adds new data to the end of the queue
         /// </summary>
         /// <param name="item">The data to add</param>
-        void Enqueue(String item);
+        void Enqueue(T item);
 
         /// <summary>
         /// Removes and returns the data in the front
         /// of the queue.
         /// </summary>
-        String Dequeue();
+        T Dequeue();
     }
 }

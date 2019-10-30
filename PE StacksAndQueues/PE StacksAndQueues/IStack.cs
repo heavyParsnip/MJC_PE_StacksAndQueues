@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace PE_StacksAndQueues
 {
     // DO NOT MODIFY THIS CODE
-    interface IStack
+    interface IStack<T>
     {
         /// <summary>
         /// Gets the current count of items in the stack
@@ -23,19 +23,19 @@ namespace PE_StacksAndQueues
         /// Look at and return the top of the stack. Returns
         /// null if the stack is empty.
         /// </summary>
-        String Peek();
+        T Peek();
 
         /// <summary>
         /// Adds new data to the top of the stack.
         /// </summary>
         /// <param name="item">The data to add</param>
-        void Push(String item);
+        void Push(T item);
 
         /// <summary>
         /// Removes and returns the data on top
         /// of the stack. Returns null if the stack is empty.
         /// </summary>
-        String Pop();
+        T Pop();
 
     }
 }

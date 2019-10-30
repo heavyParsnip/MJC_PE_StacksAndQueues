@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace PE_StacksAndQueues
 {
-    class MyQueue : IQueue
+    class MyQueue<T> : IQueue<T>
     {
         //FIELDS
-        List<String> queue = new List<String>();
+        List<T> queue = new List<T>();
 
 
         //PROPERTIES
@@ -36,11 +36,11 @@ namespace PE_StacksAndQueues
         //CONSTRUCTORS
 
         //METHODS
-        public String Peek()
+        public T Peek()
         {
             if (queue.Count == 0)
             {
-                return null;
+                return default(T);
             }
             else
             {
@@ -48,20 +48,20 @@ namespace PE_StacksAndQueues
             }
         }
 
-        public void Enqueue(String item)
+        public void Enqueue(T item)
         {
             queue.Add(item);
         }
 
-        public String Dequeue()
+        public T Dequeue()
         {
             if (queue.Count == 0)
             {
-                return null;
+                return default(T);
             }
             else
             {
-                String frontOfQueue = queue[0];
+                T frontOfQueue = queue[0];
                 queue.Remove(queue[0]);
                 return frontOfQueue;
             }
